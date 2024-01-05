@@ -59,10 +59,10 @@ matcapTexture.colorSpace = THREE.SRGBColorSpace
 // MeshDepthMaterial
 // const material = new THREE.MeshDepthMaterial()
 
-// MeshLambertMaterial - requires light - complex lighting needed
+// MeshLambertMaterial - requires light - complex lighting needed performs worse than phong
 // const material = new THREE.MeshLambertMaterial()
 
-// MeshPhongMaterial - requires light - complex lighting needed
+// MeshPhongMaterial - requires light - complex lighting needed performs better than lambert
 // const material = new THREE.MeshPhongMaterial()
 // material.shininess = 100
 // material.specular = new THREE.Color(0x1188ff)
@@ -74,7 +74,7 @@ matcapTexture.colorSpace = THREE.SRGBColorSpace
 // gradientTexture.generateMipmaps = false
 // material.gradientMap = gradientTexture
 
-// MeshStandardMaterial - requires light - physically based rendering
+// MeshStandardMaterial - requires light - physically based rendering performs better than phong
 // const material = new THREE.MeshStandardMaterial()
 // material.metalness = 0.7
 // material.roughness = 0.2
