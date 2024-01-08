@@ -182,7 +182,7 @@ scene.add(sphere, plane, torus)
  * RGBELoader
  */
 const rgbeLoader = new RGBELoader()
-rgbeLoader.load('/textures/environmentMap/2k.hdr', (environmentMap) =>
+rgbeLoader.load('/textures/environmentMap/test.hdr', (environmentMap) =>
 {
     // Mapping
     environmentMap.mapping = THREE.EquirectangularReflectionMapping
